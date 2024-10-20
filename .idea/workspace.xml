@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12365361-a7bd-4e94-bb41-c25a96c4bf80" name="Changes" comment="First commit 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fmemetaj/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fmemetaj/service/UserService.java" afterDir="false" />
+    <list default="true" id="12365361-a7bd-4e94-bb41-c25a96c4bf80" name="Changes" comment="Fixed auto create -&gt; auto update hibernate configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fmemetaj/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fmemetaj/util/HibernateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fmemetaj/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fmemetaj/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fmemetaj/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fmemetaj/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fmemetaj/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fmemetaj/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fmemetaj/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fmemetaj/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fmemetaj/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fmemetaj/util/HibernateUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +25,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/fmemetaj/hibernate-example.git",
-    "accountId": "5cbcd073-96ef-4bd8-bc2e-cc418e7256dd"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/fmemetaj/hibernate-example.git&quot;,
+    &quot;accountId&quot;: &quot;5cbcd073-96ef-4bd8-bc2e-cc418e7256dd&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -45,19 +41,19 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Maven.hibernate-example [clean].executor": "Run",
-    "Maven.hibernate-example [install].executor": "Run",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hibernate-example [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hibernate-example [install].executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.fmemetaj.Main" />
@@ -68,12 +64,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="hibernate-example" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,11 +83,20 @@
       <option name="project" value="LOCAL" />
       <updated>1729362932482</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed auto create -&gt; auto update hibernate configuration">
+      <option name="closed" value="true" />
+      <created>1729408321207</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729408321207</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit 1" />
+    <MESSAGE value="Fixed auto create -&gt; auto update hibernate configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed auto create -&gt; auto update hibernate configuration" />
   </component>
 </project>

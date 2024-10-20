@@ -11,10 +11,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-@Getter
 public class HibernateUtil {
 
-    @Getter
     private static final SessionFactory sessionFactory = buildSessionFactory();
 
     private static SessionFactory buildSessionFactory() {
@@ -47,4 +45,9 @@ public class HibernateUtil {
     public static void shutdown() {
         getSessionFactory().close();
     }
+
+    public static SessionFactory getSessionFactory() {
+        return sessionFactory;
+    }
+
 }

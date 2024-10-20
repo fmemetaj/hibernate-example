@@ -6,6 +6,7 @@ import org.fmemetaj.entity.User;
 import java.util.List;
 
 public class UserService {
+
     private final UserDAO userDAO;
 
     public UserService() {
